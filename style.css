@@ -1,20 +1,19 @@
 :root {
-  --light-grey: #f5f6f7;
-  --dark-blue: #0a0a23;
-  --eggplant: #5c374c;
-  --tangerine: #faa275;
+  --honeydew: #edffecff;
+  --english-violet: #48435cff;
+  --light-green: #61e786ff;
+  --davys-gray: #5a5766ff;
   --coral: #ff8c61;
+  --tangerine: #faa275;
   --light-pink: #ffadad;
-  --dark-red: #850000;
-  --light-green: #acd157;
+  --tropical-indigo: #9792e3ff;
 }
-
 body {
-  margin-top: 20px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  margin-top: -10px;
+  font-family: Anta;
   font-size: 18px;
-  background-color: var(--eggplant);
-  color: var(--light-grey);
+  background-color: var(--tropical-indigo);
+  color: var(--honeydew);
 }
 
 h1 {
@@ -23,14 +22,15 @@ h1 {
 
 .container {
   width: 90%;
-  max-width: 440px;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .count-cal {
-  color: var(--light-grey);
+  color: var(--honeydew);
+  text-shadow: 3px 2px var(--english-violet);
 }
 
 .container,
@@ -38,35 +38,43 @@ h1 {
   margin: 20px auto;
 }
 h1 {
-  color: darkgrey;
+  color: var(--davys-gray);
   letter-spacing: 3px;
   margin-bottom: -15px;
+  text-shadow: 2px 2px var(--honeydew);
 }
 .container {
-  border: 8px solid darkgray;
+  border: 8px solid var(--davys-gray);
+  box-shadow: 3px 4px 8px var(--english-violet);
   padding: 20px 0px;
   border-radius: 12px;
 }
-.budget-label {
-  font-family: monospace;
+.budget-label label {
+  color: var(--english-violet);
   font-size: 24px;
-  letter-spacing: 6px;
-  text-shadow: 1px 2px black;
+  letter-spacing: 4px;
+  text-shadow: 1px 2px var(--honeydew);
 }
 .budget-form {
-  padding: 5px;
+  padding: 4px;
   margin-top: 5px;
   outline: none;
-  border: 4px dashed #985277;
+  border: 4px dashed var(--coral);
 }
 .budget-form:focus {
-  border: 4px solid #985277;
+  border: 4px solid var(--coral);
+}
+label {
+  color: var(--davys-gray);
 }
 label,
 legend {
   font-weight: bold;
 }
-
+legend {
+  text-shadow: 1px 2px var(--davys-gray);
+  letter-spacing: 1px;
+}
 .input-container {
   display: flex;
   flex-direction: column;
@@ -78,25 +86,27 @@ legend {
 }
 
 button {
+  letter-spacing: 1px;
+  font-family: Anta;
   cursor: pointer;
   text-decoration: none;
-  background-color: var(--tangerine);
-  border: 2px solid var(--coral);
+  background-color: var(--honeydew);
+  border: 2px solid var(--light-green);
   padding: 7px;
   font-weight: 700;
-  color: #12122e;
+  color: var(--english-violet);
 }
 button:hover {
-  box-shadow: 3px 3px var(--coral);
+  box-shadow: 3px 3px var(--light-green);
   transition: 150ms ease-in-out;
 }
 .clear-btn {
-  background-color: #ce6a85;
-  border: 2px solid #985277;
+  background-color: var(--tangerine);
+  border: 2px solid var(--coral);
   margin-left: 7px;
 }
 .clear-btn:hover {
-  box-shadow: 3px 3px #985277;
+  box-shadow: 3px 3px var(--coral);
 }
 .calc-clear-btns {
   display: flex;
@@ -107,15 +117,15 @@ button,
 input,
 select {
   min-height: 24px;
-  color: var(--dark-blue);
+  color: var(--english-violet);
 }
 .add-food {
   font-size: 16px;
-  color: darkgray;
+  color: var(--davys-gray);
 }
 .add-btn {
   font-size: 18px;
-  padding: 4px 7px;
+  padding: 2px 8px 4px 8px;
 }
 fieldset,
 label,
@@ -129,16 +139,18 @@ input {
   border: none;
 }
 footer {
-  color: darkgrey;
+  color: var(--english-violet);
   text-align: center;
-  margin-top: -15px;
+  margin-top: -17px;
 }
 footer a {
   text-decoration: none;
-  color: #985277;
+  color: var(--light-green);
+
+  letter-spacing: 1px;
 }
 footer a:hover {
-  color: #ce6a85;
+  color: var(--honeydew);
 }
 .output {
   border: 2px solid var(--light-grey);
@@ -157,10 +169,12 @@ footer a:hover {
 
 .surplus {
   color: var(--light-pink);
+  letter-spacing: 1px;
 }
 
 .deficit {
-  color: #ff8c61;
+  color: var(--light-green);
+  letter-spacing: 1px;
 }
 
 @media (max-width: 576px) {

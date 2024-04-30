@@ -13,6 +13,32 @@ body {
   font-family: Anta;
   font-size: 18px;
   background-color: var(--tropical-indigo);
+  /*background: hsla(66, 70%, 80%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(66, 70%, 80%, 1) 50%,
+    hsla(4, 48%, 94%, 1) 70%,
+    hsla(226, 67%, 76%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(66, 70%, 80%, 1) 50%,
+    hsla(4, 48%, 94%, 1) 70%,
+    hsla(226, 67%, 76%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(66, 70%, 80%, 1) 50%,
+    hsla(4, 48%, 94%, 1) 70%,
+    hsla(226, 67%, 76%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9F0AA", endColorstr="#F7E9E8", GradientType=1 );
+  */
+  background-attachment: fixed;
   color: var(--honeydew);
 }
 
@@ -57,6 +83,7 @@ h1 {
 }
 .budget-form {
   padding: 4px;
+  padding-right: 8px;
   margin-top: 5px;
   outline: none;
   border: 4px dashed var(--coral);
@@ -103,7 +130,7 @@ button:hover {
 .clear-btn {
   background-color: var(--tangerine);
   border: 2px solid var(--coral);
-  margin-left: 7px;
+  margin-left: 10px;
 }
 .clear-btn:hover {
   box-shadow: 3px 3px var(--coral);
@@ -137,6 +164,11 @@ select {
 }
 input {
   border: none;
+  text-indent: 10px;
+  padding-right: 10px;
+}
+input:focus {
+  outline: none;
 }
 footer {
   color: var(--english-violet);
@@ -161,7 +193,9 @@ footer a:hover {
 .hide {
   display: none;
 }
-
+/*p {
+  color:rgb(104, 96, 133);
+}*/
 .output span {
   font-weight: bold;
   font-size: 1.2em;

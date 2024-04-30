@@ -110,6 +110,7 @@ legend {
   padding: 7px;
   margin-right: 2px;
   outline: none;
+  background-color: aliceblue;
 }
 
 button {
@@ -166,6 +167,7 @@ input {
   border: none;
   text-indent: 10px;
   padding-right: 10px;
+  background-color: aliceblue;
 }
 input:focus {
   outline: none;

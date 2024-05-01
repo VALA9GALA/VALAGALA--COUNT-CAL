@@ -12,32 +12,32 @@ body {
   margin-top: -10px;
   font-family: Anta;
   font-size: 18px;
-  background-color: var(--tropical-indigo);
-  /*background: hsla(66, 70%, 80%, 1);
+  /*background-color: var(--tropical-indigo);*/
+  background: hsla(66, 70%, 80%, 1);
 
   background: linear-gradient(
     90deg,
     hsla(66, 70%, 80%, 1) 50%,
-    hsla(4, 48%, 94%, 1) 70%,
+    hsla(2, 63%, 90%, 1) 70%,
     hsla(226, 67%, 76%, 1) 100%
   );
 
   background: -moz-linear-gradient(
     90deg,
     hsla(66, 70%, 80%, 1) 50%,
-    hsla(4, 48%, 94%, 1) 70%,
+    hsla(2, 63%, 90%, 1) 70%,
     hsla(226, 67%, 76%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
     90deg,
     hsla(66, 70%, 80%, 1) 50%,
-    hsla(4, 48%, 94%, 1) 70%,
+    hsla(2, 63%, 90%, 1) 70%,
     hsla(226, 67%, 76%, 1) 100%
   );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9F0AA", endColorstr="#F7E9E8", GradientType=1 );
-  */
+
   background-attachment: fixed;
   color: var(--honeydew);
 }
@@ -48,7 +48,7 @@ h1 {
 
 .container {
   width: 90%;
-  max-width: 450px;
+  max-width: 420px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,7 +56,7 @@ h1 {
 }
 .count-cal {
   color: var(--honeydew);
-  text-shadow: 3px 2px var(--english-violet);
+  text-shadow: 3px 2px var(--davys-gray);
 }
 
 .container,
@@ -64,19 +64,19 @@ h1 {
   margin: 20px auto;
 }
 h1 {
-  color: var(--davys-gray);
+  color: var(--tropical-indigo);
   letter-spacing: 3px;
   margin-bottom: -15px;
   text-shadow: 2px 2px var(--honeydew);
 }
 .container {
-  border: 8px solid var(--davys-gray);
+  border: 6px solid var(--davys-gray);
   box-shadow: 3px 4px 8px var(--english-violet);
   padding: 20px 0px;
   border-radius: 12px;
 }
 .budget-label label {
-  color: var(--english-violet);
+  color: var(--davys-gray);
   font-size: 24px;
   letter-spacing: 4px;
   text-shadow: 1px 2px var(--honeydew);
@@ -173,7 +173,7 @@ input:focus {
   outline: none;
 }
 footer {
-  color: var(--english-violet);
+  color: var(--davys-gray);
   text-align: center;
   margin-top: -17px;
 }
@@ -195,9 +195,9 @@ footer a:hover {
 .hide {
   display: none;
 }
-/*p {
-  color:rgb(104, 96, 133);
-}*/
+p {
+  color: rgb(104, 96, 133);
+}
 .output span {
   font-weight: bold;
   font-size: 1.2em;

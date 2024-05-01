@@ -71,7 +71,7 @@ h1 {
 }
 .container {
   border: 6px solid var(--davys-gray);
-  box-shadow: 3px 4px 8px var(--english-violet);
+  box-shadow: 3px 4px 15px var(--english-violet);
   padding: 20px 0px;
   border-radius: 12px;
 }

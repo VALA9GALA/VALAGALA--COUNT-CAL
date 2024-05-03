@@ -120,22 +120,22 @@ button {
   text-decoration: none;
   background-color: var(--honeydew);
   border: 2px solid var(--light-green);
+  box-shadow: 3px 3px var(--light-green);
   padding: 7px;
   font-weight: 700;
   color: var(--english-violet);
 }
 button:hover {
-  box-shadow: 3px 3px var(--light-green);
-  transition: 150ms ease-in-out;
+  box-shadow: none;
+  transition: 300ms ease-in-out;
 }
 .clear-btn {
   background-color: var(--tangerine);
   border: 2px solid var(--coral);
+  box-shadow: 3px 3px var(--coral);
   margin-left: 10px;
 }
-.clear-btn:hover {
-  box-shadow: 3px 3px var(--coral);
-}
+
 .calc-clear-btns {
   display: flex;
   justify-content: center;
